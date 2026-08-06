@@ -1843,10 +1843,10 @@ x-pack/solutions/observability/plugins/observability/server/lib/esql_extensions 
 /x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.apm.index.ts @elastic/obs-signals-traces-team
 /x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.apm.stateful.config.ts @elastic/obs-signals-traces-team
 /x-pack/solutions/observability/test/api_integration_deployment_agnostic/apis/infra/ @elastic/obs-signals-metrics-team
-/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/serverless/oblt.index.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team @elastic/kibana-management # Shared config: loads infra, alerting and dataset_quality tests
-/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/serverless/oblt.serverless.config.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team @elastic/kibana-management # Shared config: loads infra, alerting and dataset_quality tests
-/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.index.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team @elastic/kibana-management # Shared config: loads infra, alerting and dataset_quality tests
-/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.stateful.config.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team @elastic/kibana-management # Shared config: loads infra, alerting and dataset_quality tests
+/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/serverless/oblt.index.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team # Shared config: loads infra and alerting tests
+/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/serverless/oblt.serverless.config.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team # Shared config: loads infra and alerting tests
+/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.index.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team # Shared config: loads infra and alerting tests
+/x-pack/solutions/observability/test/api_integration_deployment_agnostic/configs/stateful/oblt.stateful.config.ts @elastic/obs-signals-metrics-team @elastic/actionable-obs-team # Shared config: loads infra and alerting tests
 /x-pack/solutions/observability/test/functional/page_objects/asset_details.ts @elastic/obs-signals-metrics-team # Assigned per https://github.com/elastic/kibana/pull/200157/files/c83fae62151fe634342c498aca69b686b739fe45#r1842202022
 /x-pack/solutions/observability/test/functional/page_objects/infra_* @elastic/obs-signals-metrics-team
 /x-pack/solutions/observability/test/fixtures/es_archives/infra @elastic/obs-signals-metrics-team
@@ -2037,16 +2037,12 @@ x-pack/platform/plugins/shared/significant_events/test/scout/api/tests/significa
 /x-pack/performance/journeys_e2e/metrics_* @elastic/obs-signals-metrics-team
 /x-pack/performance/utils/metrics_experience_setup.ts @elastic/obs-signals-metrics-team
  # streams-ui
-/x-pack/solutions/observability/test/api_integration_deployment_agnostic/apis/dataset_quality @elastic/kibana-management
 /x-pack/solutions/observability/test/serverless/functional/configs/config.* @elastic/streams-ui
 /x-pack/solutions/observability/test/serverless/functional/test_suites/navigation.ts @elastic/obs-presentation-team
-/x-pack/solutions/observability/test/functional/page_objects/dataset_quality.ts @elastic/kibana-management
 /x-pack/solutions/observability/test/serverless/functional/configs/index* @elastic/streams-ui
 /x-pack/solutions/observability/test/functional/services/infra_source_configuration_form.ts @elastic/obs-signals-metrics-team
 /src/platform/test/functional/services/selectable.ts @elastic/streams-ui
 /x-pack/solutions/observability/test/serverless/api_integration/configs/index.feature_flags.ts @elastic/streams-ui
-/x-pack/solutions/observability/test/functional/apps/dataset_quality @elastic/kibana-management
-/x-pack/solutions/observability/test/serverless/functional/test_suites/dataset_quality @elastic/kibana-management
 /x-pack/solutions/observability/plugins/observability/public/pages/landing @elastic/streams-ui
 
 # Observability-ui

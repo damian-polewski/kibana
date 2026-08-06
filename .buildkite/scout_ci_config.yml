@@ -25,11 +25,12 @@ plugins:
     - data_view_management
     - data_views
     - data_views_as_code
+    - dataset_quality
     - dev_tools
     - discover
     - discover_enhanced
-    - embeddable_alerts_table
     - discoveries
+    - embeddable_alerts_table
     - entity_store
     - error_boundary_example
     - event_annotation_listing
